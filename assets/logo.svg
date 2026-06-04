@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 90" width="320" height="90">
+  <!-- Pool ladder icon -->
+  <!-- Left rail -->
+  <path d="M28 14 Q24 8 20 8 Q16 8 12 12" stroke="#2AACE2" stroke-width="3.2" fill="none" stroke-linecap="round"/>
+  <line x1="28" y1="14" x2="28" y2="68" stroke="#2AACE2" stroke-width="3.2" stroke-linecap="round"/>
+  <!-- Right rail -->
+  <path d="M48 14 Q52 8 56 8 Q60 8 64 12" stroke="#2AACE2" stroke-width="3.2" fill="none" stroke-linecap="round"/>
+  <line x1="48" y1="14" x2="48" y2="68" stroke="#2AACE2" stroke-width="3.2" stroke-linecap="round"/>
+  <!-- Rungs -->
+  <line x1="28" y1="25" x2="48" y2="25" stroke="#2AACE2" stroke-width="2.8" stroke-linecap="round"/>
+  <line x1="28" y1="35" x2="48" y2="35" stroke="#2AACE2" stroke-width="2.8" stroke-linecap="round"/>
+  <line x1="28" y1="45" x2="48" y2="45" stroke="#2AACE2" stroke-width="2.8" stroke-linecap="round"/>
+  <line x1="28" y1="55" x2="48" y2="55" stroke="#2AACE2" stroke-width="2.8" stroke-linecap="round"/>
+  <!-- Wave at bottom of ladder -->
+  <path d="M10 72 Q20 66 28 72 Q36 78 48 72 Q60 66 70 72" stroke="#2AACE2" stroke-width="2.4" fill="none" stroke-linecap="round"/>
+
+  <!-- PPS letters -->
+  <!-- P1 (dark navy) -->
+  <text x="68" y="72" font-family="'DM Sans', Arial Black, sans-serif" font-size="62" font-weight="900" fill="#1B3A5C" letter-spacing="-2">P</text>
+  <!-- P2 (dark navy) -->
+  <text x="110" y="72" font-family="'DM Sans', Arial Black, sans-serif" font-size="62" font-weight="900" fill="#1B3A5C" letter-spacing="-2">P</text>
+  <!-- S (turquoise) -->
+  <text x="152" y="72" font-family="'DM Sans', Arial Black, sans-serif" font-size="62" font-weight="900" fill="#2AACE2" letter-spacing="-2">S</text>
+
+  <!-- Tagline: Provence Pool Services -->
+  <!-- "P" turquoise -->
+  <text x="68" y="86" font-family="'DM Sans', Arial, sans-serif" font-size="13" font-weight="400" fill="#2AACE2" letter-spacing="0.5">P</text>
+  <text x="76" y="86" font-family="'DM Sans', Arial, sans-serif" font-size="13" font-weight="400" fill="#1B3A5C" letter-spacing="0.5">rovence </text>
+  <!-- "P" turquoise -->
+  <text x="131" y="86" font-family="'DM Sans', Arial, sans-serif" font-size="13" font-weight="400" fill="#2AACE2" letter-spacing="0.5">P</text>
+  <text x="139" y="86" font-family="'DM Sans', Arial, sans-serif" font-size="13" font-weight="400" fill="#1B3A5C" letter-spacing="0.5">ool </text>
+  <!-- "S" turquoise -->
+  <text x="165" y="86" font-family="'DM Sans', Arial, sans-serif" font-size="13" font-weight="400" fill="#2AACE2" letter-spacing="0.5">S</text>
+  <text x="173" y="86" font-family="'DM Sans', Arial, sans-serif" font-size="13" font-weight="400" fill="#1B3A5C" letter-spacing="0.5">ervices</text>
+</svg>
