@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact & Devis gratuit – PPS Provence Pool Services</title>
+  <meta name="description" content="Demandez un devis gratuit à PPS Provence Pool Services. Construction piscine, pose PVC armé, rénovation dans le Var, PACA et en Corse. Réponse sous 48h.">
+  <link rel="canonical" href="https://www.provence-pool-services.fr/contact.html">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/lenis@1.1.18/dist/lenis.min.js"></script>
+</head>
+<body>
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-trail" id="cursorTrail"></div>
+
+  <div class="preloader" id="preloader">
+    <div class="preloader__inner">
+      <div class="preloader__logo"><span class="preloader__logo-pp">PP</span><span class="preloader__logo-s">S</span></div>
+      <div class="preloader__bar-wrap"><div class="preloader__bar" id="preloaderBar"></div></div>
+      <p class="preloader__label">Provence Pool Services</p>
+    </div>
+  </div>
+
+  <header class="header is-past-hero is-scrolled" id="header">
+    <div class="header__inner">
+      <a href="index.html" class="header__logo" aria-label="PPS Provence Pool Services">
+        <img src="assets/logo-pps-transparent.png" alt="Logo PPS" height="46" width="auto" class="header__logo-img">
+      </a>
+      <nav class="header__nav" id="nav" aria-label="Navigation principale">
+        <ul class="header__nav-list">
+          <li><a href="index.html" class="header__nav-link">Accueil</a></li>
+          <li><a href="a-propos.html" class="header__nav-link">À propos</a></li>
+          <li><a href="realisations.html" class="header__nav-link">Réalisations</a></li>
+          <li><a href="contact.html" class="header__nav-link header__nav-link--cta">Devis gratuit</a></li>
+        </ul>
+      </nav>
+      <button class="header__burger" id="burger" aria-label="Ouvrir le menu" aria-expanded="false">
+        <span class="header__burger-line"></span>
+        <span class="header__burger-line"></span>
+        <span class="header__burger-line"></span>
+      </button>
+    </div>
+  </header>
+
+  <section class="page-hero">
+    <div class="container page-hero__inner">
+      <span class="eyebrow eyebrow--light">Gratuit &amp; sans engagement</span>
+      <h1 class="page-hero__title">Devis &amp; Contact</h1>
+    </div>
+  </section>
+
+  <section class="contact" id="contact" aria-labelledby="contact-title">
+    <div class="contact__deco" aria-hidden="true">Devis</div>
+    <div class="container contact__grid">
+      <div class="contact__left scroll-reveal scroll-reveal--slide-left">
+        <span class="eyebrow eyebrow--light">Gratuit &amp; sans engagement</span>
+        <h2 class="contact__title" id="contact-title">Devis piscine gratuit —<br>Var, PACA, Corse</h2>
+        <p class="contact__body">Décrivez votre projet et nous vous recontactons sous 48h avec une proposition personnalisée. Garantie décennale sur l'ensemble de nos travaux.</p>
+        <div class="contact__trust">
+          <div class="contact__trust-item">
+            <svg viewBox="0 0 24 24" fill="none" width="22" height="22"><path d="M9 12l2 2 4-4" stroke="#2AA8C9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><circle cx="12" cy="12" r="9" stroke="#2AA8C9" stroke-width="2"/></svg>
+            Réponse sous 48h
+          </div>
+          <div class="contact__trust-item">
+            <svg viewBox="0 0 24 24" fill="none" width="22" height="22"><path d="M9 12l2 2 4-4" stroke="#2AA8C9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><circle cx="12" cy="12" r="9" stroke="#2AA8C9" stroke-width="2"/></svg>
+            Devis personnalisé gratuit
+          </div>
+          <div class="contact__trust-item">
+            <svg viewBox="0 0 24 24" fill="none" width="22" height="22"><path d="M9 12l2 2 4-4" stroke="#2AA8C9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><circle cx="12" cy="12" r="9" stroke="#2AA8C9" stroke-width="2"/></svg>
+            Garantie décennale
+          </div>
+        </div>
+      </div>
+      <div class="contact__form-wrap scroll-reveal scroll-reveal--slide-right">
+        <form class="contact-form" id="contactForm" novalidate aria-label="Formulaire de devis PPS">
+          <div class="contact-form__row">
+            <div class="form-field">
+              <input type="text" id="fPrenom" name="prenom" required autocomplete="given-name" placeholder=" ">
+              <label for="fPrenom">Prénom</label>
+              <span class="form-field__check" aria-hidden="true">✓</span>
+            </div>
+            <div class="form-field">
+              <input type="text" id="fNom" name="nom" required autocomplete="family-name" placeholder=" ">
+              <label for="fNom">Nom</label>
+              <span class="form-field__check" aria-hidden="true">✓</span>
+            </div>
+          </div>
+          <div class="contact-form__row">
+            <div class="form-field">
+              <input type="email" id="fEmail" name="email" required autocomplete="email" placeholder=" ">
+              <label for="fEmail">Email</label>
+              <span class="form-field__check" aria-hidden="true">✓</span>
+            </div>
+            <div class="form-field">
+              <input type="tel" id="fTel" name="telephone" autocomplete="tel" placeholder=" ">
+              <label for="fTel">Téléphone</label>
+              <span class="form-field__check" aria-hidden="true">✓</span>
+            </div>
+          </div>
+          <div class="contact-form__row">
+            <div class="form-field form-field--select">
+              <select id="fType" name="type_projet" required>
+                <option value="" disabled selected></option>
+                <option value="cle-en-main">Construction clé en main</option>
+                <option value="pvc-arme">Pose PVC armé / Liner</option>
+                <option value="local-technique">Local technique</option>
+                <option value="plomberie">Plomberie piscine</option>
+                <option value="renovation">Rénovation piscine</option>
+                <option value="autre">Autre</option>
+              </select>
+              <label for="fType">Type de projet</label>
+              <span class="form-field__check" aria-hidden="true">✓</span>
+            </div>
+            <div class="form-field">
+              <input type="text" id="fDept" name="departement" placeholder=" ">
+              <label for="fDept">Département</label>
+              <span class="form-field__check" aria-hidden="true">✓</span>
+            </div>
+          </div>
+          <div class="contact-form__row">
+            <div class="form-field form-field--select form-field--full">
+              <select id="fBudget" name="budget">
+                <option value="" disabled selected></option>
+                <option value="moins-20k">Moins de 20 000 €</option>
+                <option value="20-40k">20 000 € – 40 000 €</option>
+                <option value="40-70k">40 000 € – 70 000 €</option>
+                <option value="70-100k">70 000 € – 100 000 €</option>
+                <option value="plus-100k">Plus de 100 000 €</option>
+                <option value="non-defini">Budget non défini</option>
+              </select>
+              <label for="fBudget">Budget estimé</label>
+            </div>
+          </div>
+          <div class="contact-form__row">
+            <div class="form-field form-field--full form-field--textarea">
+              <textarea id="fMessage" name="message" rows="4" placeholder=" "></textarea>
+              <label for="fMessage">Décrivez votre projet</label>
+            </div>
+          </div>
+          <button type="submit" class="btn btn--submit" id="formSubmit">
+            <span class="btn-submit__text">Envoyer ma demande</span>
+            <span class="btn-submit__icon" aria-hidden="true">→</span>
+          </button>
+        </form>
+        <div class="contact-form__success" id="formSuccess" aria-live="polite" hidden>
+          <div class="success-anim" aria-hidden="true">
+            <svg class="success-check" viewBox="0 0 52 52" fill="none">
+              <circle class="success-check__circle" cx="26" cy="26" r="25" stroke="#2AA8C9" stroke-width="2"/>
+              <path class="success-check__path" d="M14 26l8 8 16-16" stroke="#2AA8C9" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <h3>Votre demande a été envoyée !</h3>
+          <p>Nous vous recontactons sous 48h avec une proposition personnalisée.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="faq" id="faq" aria-labelledby="faq-title">
+    <div class="container faq__grid">
+      <div class="faq__intro scroll-reveal scroll-reveal--slide-left">
+        <span class="eyebrow">Questions fréquentes</span>
+        <h2 class="section-title faq__title" id="faq-title">Vos questions,<br>nos réponses</h2>
+        <p class="section-sub">Vous ne trouvez pas la réponse ? Notre équipe vous répond directement, sans jargon et sans engagement.</p>
+        <a href="#contact" class="btn btn--outline-dark">Poser ma question</a>
+      </div>
+      <div class="faq__list scroll-reveal scroll-reveal--fade-up">
+        <div class="faq-item">
+          <button class="faq-item__q" aria-expanded="false">
+            <span>Quelle est la durée de vie d'une membrane PVC armé&nbsp;?</span>
+            <span class="faq-item__icon" aria-hidden="true"></span>
+          </button>
+          <div class="faq-item__a">
+            <p>Une membrane PVC armé posée dans les règles de l'art dure en moyenne 15 à 25 ans. Chez PPS, chaque pose est couverte par notre garantie décennale, gage de notre confiance dans la qualité du travail réalisé.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-item__q" aria-expanded="false">
+            <span>Peut-on rénover une piscine existante avec du PVC armé&nbsp;?</span>
+            <span class="faq-item__icon" aria-hidden="true"></span>
+          </button>
+          <div class="faq-item__a">
+            <p>Oui, c'est l'un des grands avantages du PVC armé. Il se pose directement sur un bassin existant — carrelage, ancien liner ou béton — sans démolition ni gros œuvre.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-item__q" aria-expanded="false">
+            <span>Combien de temps dure un chantier piscine clé en main&nbsp;?</span>
+            <span class="faq-item__icon" aria-hidden="true"></span>
+          </button>
+          <div class="faq-item__a">
+            <p>Pour une construction neuve clé en main, comptez en moyenne 6 à 10 semaines. Une rénovation en PVC armé seule se réalise généralement en quelques jours.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-item__q" aria-expanded="false">
+            <span>Dans quelles régions intervenez-vous&nbsp;?</span>
+            <span class="faq-item__icon" aria-hidden="true"></span>
+          </button>
+          <div class="faq-item__a">
+            <p>PPS intervient sur l'ensemble du Sud-Est — Var, Bouches-du-Rhône, Alpes-Maritimes, Vaucluse, Alpes-de-Haute-Provence, Hautes-Alpes, Gard, Hérault — ainsi qu'en Corse.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-item__q" aria-expanded="false">
+            <span>Le devis est-il vraiment gratuit&nbsp;?</span>
+            <span class="faq-item__icon" aria-hidden="true"></span>
+          </button>
+          <div class="faq-item__a">
+            <p>Absolument. L'étude de votre projet et le devis détaillé sont entièrement gratuits et sans engagement.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-item__q" aria-expanded="false">
+            <span>Qu'est-ce que la garantie décennale couvre&nbsp;?</span>
+            <span class="faq-item__icon" aria-hidden="true"></span>
+          </button>
+          <div class="faq-item__a">
+            <p>La garantie décennale couvre pendant 10 ans tout dommage compromettant la solidité de l'ouvrage ou le rendant impropre à sa destination — notamment l'étanchéité du bassin.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer" id="footer" aria-label="Pied de page">
+    <div class="footer__wave" aria-hidden="true">
+      <svg viewBox="0 0 1440 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0,40 C360,80 720,0 1080,40 C1260,60 1380,20 1440,40 L1440,0 L0,0 Z" fill="#EAF3F6"/>
+      </svg>
+    </div>
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <a href="index.html" class="footer__logo" aria-label="PPS – Provence Pool Services">
+          <img src="assets/logo-pps-transparent.png" alt="Logo PPS" height="54" width="auto" class="footer__logo-img">
+        </a>
+        <p class="footer__tagline">L'excellence piscinière depuis 20 ans.<br>Du Sud-Est à la Corse.</p>
+        <div class="footer__social" aria-label="Réseaux sociaux">
+          <a href="#" class="footer__social-btn" aria-label="Facebook PPS">
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg>
+          </a>
+          <a href="#" class="footer__social-btn" aria-label="Instagram PPS">
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
+          </a>
+        </div>
+      </div>
+      <nav class="footer__col" aria-label="Navigation footer">
+        <h4 class="footer__col-title">Navigation</h4>
+        <ul class="footer__list">
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="a-propos.html">À propos</a></li>
+          <li><a href="realisations.html">Réalisations</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="contact.html">Devis gratuit</a></li>
+        </ul>
+      </nav>
+      <div class="footer__col">
+        <h4 class="footer__col-title">Services</h4>
+        <ul class="footer__list">
+          <li><a href="index.html#services">Construction clé en main</a></li>
+          <li><a href="index.html#services">Pose PVC armé</a></li>
+          <li><a href="index.html#services">Local technique piscine</a></li>
+          <li><a href="index.html#services">Plomberie piscine</a></li>
+          <li><a href="contact.html">Devis gratuit</a></li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <h4 class="footer__col-title">Contact</h4>
+        <address class="footer__contact">
+          <p>
+            <svg viewBox="0 0 24 24" fill="none" width="16" height="16" aria-hidden="true"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.5a19.79 19.79 0 01-3.07-8.67A2 2 0 012 .82h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 8.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z" stroke="currentColor" stroke-width="2"/></svg>
+            <a href="tel:[TELEPHONE]">[TELEPHONE]</a>
+          </p>
+          <p>
+            <svg viewBox="0 0 24 24" fill="none" width="16" height="16" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" stroke="currentColor" stroke-width="2"/><polyline points="22,6 12,13 2,6" stroke="currentColor" stroke-width="2"/></svg>
+            <a href="mailto:[EMAIL]">[EMAIL]</a>
+          </p>
+          <p>
+            <svg viewBox="0 0 24 24" fill="none" width="16" height="16" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="10" r="3" stroke="currentColor" stroke-width="2"/></svg>
+            [ADRESSE]
+          </p>
+        </address>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <div class="container footer__bottom-inner">
+        <p>&copy; 2025 PPS – Provence Pool Services. Tous droits réservés.</p>
+        <p>Garantie décennale · Sud-Est France &amp; Corse</p>
+      </div>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
