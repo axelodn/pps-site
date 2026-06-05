@@ -645,7 +645,7 @@ body:has(button:hover) .cursor-trail { width: 52px; height: 52px; }
 /* Renolit Alkorplan — logo horizontal custom */
 .brands__logo[alt="Renolit"] {
   max-height: 36px;
-  max-width: 220px;
+  max-width: 115px;
 }
 .brands__item:hover .brands__logo {
   filter: none;
