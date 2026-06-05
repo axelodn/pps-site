@@ -912,6 +912,8 @@ body:has(button:hover) .cursor-trail { width: 52px; height: 52px; }
 .realisations {
   padding-block: var(--section-gap);
   background: var(--color-white);
+  position: relative;
+  overflow: hidden;
 }
 
 /* ── Before / After ── */
@@ -1075,6 +1077,25 @@ body:has(button:hover) .cursor-trail { width: 52px; height: 52px; }
 .stats__deco-line {
   display: none;
 }
+
+/* ── Texte décoratif PPS en arrière-plan ── */
+.section__deco {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-family: var(--font-serif);
+  font-size: clamp(10rem, 20vw, 20rem);
+  font-weight: 700;
+  color: rgba(255,255,255,0.03);
+  pointer-events: none;
+  line-height: 1;
+  user-select: none;
+  white-space: nowrap;
+  z-index: 0;
+}
+.section__deco--left  { left: -0.05em; }
+.section__deco--right { right: -0.05em; }
+.section__deco--dark  { color: rgba(20,57,79,0.04); }
 
 .stats__grid {
   display: grid;
