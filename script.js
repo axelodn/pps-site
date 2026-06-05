@@ -112,8 +112,15 @@ const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)
   if (!header) return;
 
   const heroSection = document.getElementById('hero');
+
+  // Page sans hero (a-propos, realisations, contact) → header toujours visible
+  if (!heroSection) {
+    header.classList.add('is-past-hero', 'is-scrolled');
+    return;
+  }
+
   const onScroll = () => {
-    const heroH = heroSection ? heroSection.offsetHeight : window.innerHeight;
+    const heroH = heroSection.offsetHeight;
     if (heroH < 200) return; // hero pas encore rendu — on ignore
     const pastHero = window.scrollY > heroH - 20;
     header.classList.toggle('is-past-hero', pastHero);
